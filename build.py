@@ -8,7 +8,7 @@ cx_Freeze.setup(
     options={
         "build_exe":{
             "packages":["pygame"],
-            "include_files":["bgspace.jpg", "marcacoes.txt", "rocket.png", "spacesound.mp3"]
+            "include_files":["bgspace.jpeg", "marcacoes.txt", "rocket.png", "spacesound.mp3"]
         }
     }, executables = executables
 )
