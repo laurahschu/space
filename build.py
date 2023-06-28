@@ -1,7 +1,7 @@
 #pip install cx_freeze
 import cx_Freeze
 executables =[
-    cx_Freeze.Executable(script="main.py", icon="space.ico")
+    cx_Freeze.Executable(script="teste_1.py", icon="space.ico")
 ]
 cx_Freeze.setup(
     name = "Space Marker",
